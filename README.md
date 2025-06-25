@@ -76,7 +76,7 @@ This project presents an interactive and dynamic Power BI report analyzing **Sup
 ## 📌 How to View the Report
 
 > ✅ You can download and open the `.pbix` file in Power BI Desktop  
-> OR preview screenshots in the `Images/` folder of this repository.
+
 
 ---
 
