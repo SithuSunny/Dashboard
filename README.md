@@ -1,42 +1,89 @@
-# Superstore Sales Dashboard (Power BI Project)
+# 📊 Power BI Project: Superstore Sales Performance Dashboard
 
-## 📊 Overview
-This project involves creating an interactive Power BI dashboard based on the Superstore dataset, which helps stakeholders understand sales performance, profitability, and growth across different segments and regions.
-
-## 📁 Dataset
-- **Source**: Kaggle 
-- **File Used**: `superstore.csv`
-- **Fields Included**:
-  - Order Date, Ship Date
-  - Sales, Profit, Quantity, Discount
-  - Category, Sub-Category, Segment, Region, Country
-
-## 🧰 Tools Used
-- Microsoft Power BI 
-- Dataset: Superstore
-
-## 🎯 Objectives
-- Design an **interactive dashboard** for business decision-makers
-- Track key KPIs like **Total Sales, Total Profit, Growth**, etc.
-- Enable exploration through filters, slicers, and visual drill-downs
-- Communicate insights via visual storytelling
-
-## ✅ Key Features Implemented
-- **KPI Cards**: Total Sales, Total Profit, Total Orders, Avg Profit per Order
-- **Time-Series Analysis**: Line chart showing Sales Trend over time
-- **Slicers**: Region, Segment, Category, and Date range
-- **Bar Charts**: Sales by Category and Sub-Category
-- **Treemap**: Sales distribution by Sub-Category
-- **Map**: Sales distribution across cities 
-- **Interactive Filtering**: Enabled using “Edit Interactions” to limit impact of slicers to specific visuals
-
-
-## 📄 Summary PPT
-A PowerPoint summary of the dashboard is included as `Superstore_Dashboard_Summary.pptx`.
-
-## 🔚 Outcome
-This project demonstrates key Power BI skills in data cleaning, modeling, DAX measure creation, and dashboard design — providing a strong base for business-oriented data storytelling.
+This project presents an interactive and dynamic Power BI report analyzing **Superstore sales performance** across regions, products, and customers. It aims to deliver key business insights and support data-driven decision-making.
 
 ---
 
-> Built with ❤️ using Power BI to turn raw data into actionable insights.
+## 📁 Project Overview
+
+- **Tool Used:** Power BI
+- **Dataset:** 
+- **Focus Areas:**
+  - Executive Summary
+  - Regional Sales Analysis
+  - Product Performance
+  - Customer Behavior
+  - Key Insights & Recommendations
+
+---
+
+## 🔍 Dashboard Features
+
+### 1. 📌 Executive Summary
+- Total Sales: ₹13M | Total Profit: ₹1.47M | Orders: 25K
+- Avg. Sales per Order: $505.01 | Avg. Profit per Order: $58.62 | profit margin 11.61%
+- Peak Sales Month: **Nov 2014** (₹555K)
+- Top Sub-Category: **Phones**
+- Least Sold: **Labels**
+
+### 2. 🌍 Sales Analysis by Region
+- Top Sales Region: **Central** (₹2.82M)
+- Top Profit Region: **Central** (₹311K)
+- Region-wise monthly trends and profit breakdown
+
+### 3. 📦 Product Performance
+- Highest Sales: **Phones** (₹1.7M)
+- Highest Profit: **Copiers** (₹258K)
+- Highest Quantity Sold: **Binders** (21,429 units)
+- Interactive drill-down by Category & Sub-category
+
+### 4. 👤 Customer Behavior
+- Total Customers: **4,873**
+- Top Customer: **Tom Ashbrook** (₹40.5K)
+- Top Segment: **Consumer** (₹6.5M sales, ₹749K profit)
+- Insight into Sales vs Discount impact
+
+### 5. 💡 Key Insights & Recommendations
+- Strategic recommendations for marketing focus
+- Optimization of discount strategy
+- High-value customer targeting and upselling
+- Product bundling opportunities with Phones & Binders
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Power BI Report Design (Professional layout & slicer integration)
+- DAX Measures & KPIs
+- Data Cleaning & Modeling
+- Storytelling with Data
+- Business Insight Generation
+
+---
+
+## 📸 Screenshots
+
+| Page | Description |
+|------|-------------|
+| Executive Summary | High-level KPIs and Monthly Sales Trends |
+| Region Analysis | Regional Sales, Profit, and Geographic Distribution |
+| Product Analysis | Product Sales, Profitability, Quantity Sold |
+| Customer Insights | Top Customers, Segment Performance, Discount Behavior |
+| Final Storytelling | Key Insights & Strategic Recommendations |
+
+---
+
+## 📌 How to View the Report
+
+> ✅ You can download and open the `.pbix` file in Power BI Desktop  
+> OR preview screenshots in the `Images/` folder of this repository.
+
+---
+
+## 📫 Contact
+
+**Created by:** Sithu Sunny  
+**Role:** Data Analyst Intern  
+**Tools:** Power BI, Excel  
+
+
